@@ -53,7 +53,6 @@ In our case, we are doing it more simply. Once the update function has been comp
 
 #### Delta Time  - (Δt or dt)
 
-Delta Time Covered is in more detail here - you will want to read this!
 
 Before calling Update, the Delta Time (dt) is calculated. This is the amount of time that has passed between now and the previous frame or tick. With a game updating at a steady 60fps, dt should be approximately 16ms (1/60).
 To actually calculate dt, you can use inbuilt C++ timers, or just use the handy SFML Clock.
